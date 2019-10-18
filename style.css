@@ -602,7 +602,7 @@ img {
   display: inline;
   float: left;
   width: 100%;
-  padding-top: 70px;
+  padding: 70px 0 25px;
 }
 
 .mu-restaurant-menu-content {
@@ -1493,7 +1493,7 @@ RESERVATION SECTION
 /*Custom css by Thạch*/
 .banner {
   position: relative;
-  height: 90vh;
+  height: auto;
 }
 .banner .cloud {
   position: absolute;
@@ -1504,35 +1504,37 @@ RESERVATION SECTION
     height: 205px;
 }
 .intro {
-    background: url(assets/images/bg-intro.jpg) repeat-y;
+    background-image: linear-gradient(to bottom, rgba(185, 236, 210, 0.52), #b5f1c4c7), url(assets/images/bg-intro.jpg);
     padding: 80px 0 50px 0;
+    background-size: cover;
     display: inline-block;
     width: 100%;
 
 }
 
 .content p{
-  color: #666;
+  color: #2f2c2c;
 }
 .timeline__event {
-  width: 850px;
+  width: 80%;
   height: auto;
   margin: auto;
 }
 .icon_day {
-  position: relative;
-  width: 70px;
+/*  position: relative;
+*/  width: 70px;
   height: auto;
   margin: auto;
+  margin-top: 20px;
 }
-.icon_day img {
+/*.icon_day img {
   position: absolute;
-}
+}*/
 .event-day {
-  background-color: rgba(14, 86, 167, 0.4);
-}
+  background-color: rgba(37, 36, 35, 0.68);
+  }
 .event-night {
-  background-color: rgba(243, 175, 71, 0.36);
+  background-color: rgba(19, 50, 74, 0.74);
 }
 .timeline__event-des {
   padding: 15px 0;
@@ -1545,8 +1547,7 @@ RESERVATION SECTION
   color: #fff;
 }
 #mu-restaurant-menu {
-    /*background-size: 20px 20px;*/
-    background-image: url(assets/images/agenda.jpg);
+    background-image: linear-gradient(to bottom, rgba(106, 187, 131, 0.39), #35b78666),url(assets/images/night-bg.jpg);
     background-size: cover;
     background-attachment: scroll;
     background-origin: content-box;
@@ -1577,14 +1578,20 @@ RESERVATION SECTION
 }
 .mu-single-chef {
   width: 20%;
-  margin: 0 8px;
- 
+}
+.mu-single-chef-img {
+  margin: 0 20px;
 }
 .mu-single-chef-img img{
-  height: 210px;
+  height: auto;
+  border: 5px solid rgb(218, 218, 218);
   border-radius: 50%;
-  padding: 15px;
   object-fit: cover;
+    transition: all 0.5;
+}
+.mu-single-chef-img img:hover{
+  border: 5px solid #3fc35f;
+  transition: all 0.5;
 }
 .mu-single-chef-info{
   padding: 10px;
@@ -1652,6 +1659,12 @@ RESERVATION SECTION
     width: 180px;
     border-top: 3px solid #3FC35F;
 }
+
+/*Popup form*/
+
+
+
+
 /*==================
  RESPONSIVE DESIGN
 ====================*/
