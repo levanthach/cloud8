@@ -523,7 +523,7 @@ img {
 .mu-counter-overlay {
   background-color: rgba(0, 0, 0, 0.8);
   display: inline;
-  padding: 100px 0;
+  padding: 60px 0;
   float: left;
   width: 100%;
 }
@@ -1493,6 +1493,7 @@ RESERVATION SECTION
 /*Custom css by Thạch*/
 .banner {
   position: relative;
+  height: 90vh;
 }
 .banner .cloud {
   position: absolute;
@@ -1503,7 +1504,7 @@ RESERVATION SECTION
     height: 205px;
 }
 .intro {
-    background: url(assets/images/bg.jpg) repeat-y;
+    background: url(assets/images/bg-intro.jpg) repeat-y;
     padding: 80px 0 50px 0;
     display: inline-block;
     width: 100%;
@@ -1511,7 +1512,7 @@ RESERVATION SECTION
 }
 
 .content p{
-  color: #fff;
+  color: #666;
 }
 .timeline__event {
   width: 850px;
@@ -1557,10 +1558,10 @@ RESERVATION SECTION
 }
 .mu-restaurant-menu > li > a{
   background: #fff!important;
-  color:#3498db!important;
+  color:#3fc35f!important;
 }
 .mu-restaurant-menu .active > a {
-  background: #3498db!important;
+  background: #3fc35f!important;
   color:#fff!important;
 }
 #mu-chef {
@@ -1591,7 +1592,7 @@ RESERVATION SECTION
 
 }
 .mu-single-chef-info h4 {
-  color: #3498db;
+  color: #3fc35f;
    font-weight: 700;
 }
 
@@ -1622,6 +1623,34 @@ RESERVATION SECTION
 .button-dang-ky a {
   font-weight: 600;
   text-transform: uppercase;
+}
+.mu-title h2::after{
+  content: "";
+  display: table;
+  clear: both;
+  background: url('assets/images/line-title.png');
+  width: 100%;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: bottom;
+  padding-top: 0;
+}
+.mu-about-us-night {
+  background-color: #f8f8f8;
+}
+.mu-about-us-right h3, .mu-about-us-left h3 {
+  font-size: 30px;
+  margin-top: 0!important;
+  color: #666;
+  font-weight: bold;
+}
+.mu-about-us-right h3::before, .mu-about-us-left h3::before {
+    content: "";
+    display: block;
+    height: 10px;
+    width: 180px;
+    border-top: 3px solid #3FC35F;
 }
 /*==================
  RESPONSIVE DESIGN
