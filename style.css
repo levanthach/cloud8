@@ -1170,7 +1170,9 @@ RESERVATION SECTION
   box-sizing: border-box;
   overflow: hidden;
 }
-
+.mu-chef-nav .slick-list li:focus{
+  outline: none!important
+}
 .mu-chef-nav .slick-list li:first-child {
   margin-left: 0;
 }
@@ -1479,10 +1481,13 @@ RESERVATION SECTION
   float: left;
   width: 100%;
 }
-
+.intro .content {
+  text-align: justify;
+}
 .mu-footer-copyright p {
   font-family: 'Roboto', sans-serif;
-  font-size: 15px;
+  font-size: 14px;
+  font-weight: 300;
   letter-spacing: 0.5px;
   color: #fff;
 }
@@ -1579,6 +1584,9 @@ RESERVATION SECTION
 .mu-single-chef {
   width: 20%;
 }
+.mu-single-chefs:focus{
+  outline: none!important;
+}
 .mu-single-chef-img {
   margin: 0 20px;
 }
@@ -1598,9 +1606,20 @@ RESERVATION SECTION
   text-align: center;
 
 }
-.mu-single-chef-info h4 {
+#mu-chef .mu-single-chef-info h4 {
   color: #3fc35f;
    font-weight: 700;
+}
+#mu-chef .mu-single-chef-info p {
+  font-size: 11.55px;
+  height: auto;
+}
+#mu-chef .mu-single-chef-info span {
+  color: gray;
+  font-size: 12px;
+}
+#mu-chef .mu-single-chef-info span:hover {
+  color: #3fc35f;
 }
 
 #sponsor {
@@ -1662,9 +1681,107 @@ RESERVATION SECTION
 
 /*Popup form*/
 
+/*Trigger Button*/
+.login-trigger {
+  font-weight: bold;
+  color: #fff;
+  background: linear-gradient(to bottom right, #B05574, #F87E7B);
+  padding: 15px 30px;
+  border-radius: 30px;
+  position: relative; 
+  top: 50%;
+}
 
+/*Modal*/
+.modal-partner {
+  top: 25%!important;
+}
+.modal-body h3 {
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.close {
+  color: #fff;
+  transform: scale(1.2)
+}
+.modal-content-res {
+  font-weight: bold;
+  background: linear-gradient(to bottom right,#58c469,#236185);
+}
+.form-control-res {
+  margin: 1em 0;
+}
+.form-control-res:hover, .form-control-res:focus {
+  box-shadow: none;  
+  border-color: #fff;
+}
+.username, .password {
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  border-bottom: 2px solid #eee;
+  padding-left: 0;
+  font-weight: normal;
+  background: transparent;  
+}
+.form-control-res::-webkit-input-placeholder {
+  color: #666;  
+}
+.form-control-res:focus::-webkit-input-placeholder {
+  font-weight: 100;
+  color: #fff;
+}
+.login {
+  padding: 6px 25px;
+  border-radius: 20px;
+  background: none;
+  border: 2px solid #cc8e35;
+  color: #cc8e35;
+  font-weight: bold;
+  transition: all .5s;
+  margin-top: 1em;
+}
+.login:focus{
+  outline: none!important;
+}
+.login:hover {
+  background: #cc8e35;
+  color: #fff;
+}
+/*Popup form partner*/
+.md-content-partner .modal-header {
+  background: #3fc35f;
+  color: #fff;
+  text-align: center;
+}
 
+.md-content-partner .modal-header .close {
+  color: #fff;
+}
+.md-content-partner .modal-header .close:focus {
+  outline: none;
+}
+.md-content-partner .modal-body {
+  width: 100%;
+  overflow: auto;
+}
+.md-content-partner .modal-body img {
+  width: 30%;
+  float: left;
+  display: inline-block;
+  height: auto;
+  object-fit: cover;
+}
+.md-content-partner .modal-body p{
+  width: 70%;
+  float: right;
+  padding: 20px 20px;
+  text-align: justify;
 
+}
 /*==================
  RESPONSIVE DESIGN
 ====================*/
