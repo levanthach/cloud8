@@ -1577,12 +1577,14 @@ RESERVATION SECTION
   background-repeat: no-repeat;
 }
 .mu-chef-content {
-   display: flex;
   width: 100%;
   height: auto;
 }
 .mu-single-chef {
   width: 20%;
+  display: inline;
+  float: left;
+  margin-bottom: 30px;
 }
 .mu-single-chefs:focus{
   outline: none!important;
@@ -1611,7 +1613,7 @@ RESERVATION SECTION
    font-weight: 700;
 }
 #mu-chef .mu-single-chef-info p {
-  font-size: 11.55px;
+  font-size: 12.55px;
   height: auto;
 }
 #mu-chef .mu-single-chef-info span {
@@ -1782,14 +1784,29 @@ RESERVATION SECTION
   text-align: justify;
 
 }
+.modal-open .modal{
+  overflow-y: hidden!important;
+}
 /*==================
  RESPONSIVE DESIGN
 ====================*/
 
 @media (max-width: 1199px) {
+  .mu-title h2 {
+    color: #000;
+    font-size: 29px;
+  }
+
   .mu-main-navbar .mu-main-nav li a {
     padding-left: 10px;
     padding-right: 10px;
+  }
+  #mu-chef {
+    padding: 70px 0 50px;
+  }
+  #mu-chef .mu-single-chef-info p {
+    font-size: 10.5px;
+    height: auto;
   }
 
   .mu-top-slider .mu-top-slider-single .mu-top-slider-content {
