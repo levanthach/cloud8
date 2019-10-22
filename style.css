@@ -330,7 +330,7 @@ img {
 .mu-top-slider .mu-top-slider-single .mu-top-slider-content {
   position: absolute;
   left: 15%;
-  top: 30%;
+  top: 72vh;
   right: 15%;
   text-align: center;
   z-index: 99;
@@ -722,7 +722,10 @@ RESERVATION SECTION
 ====================*/
 
 #mu-reservation {
-  background-color: #222;
+  background:-webkit-linear-gradient(rgba(102, 140, 158, 0.62), #37e07347), url(assets/images/bg-res.jpg) no-repeat;
+  background:-o-linear-gradient(rgba(102, 140, 158, 0.62), #37e07347), url(assets/images/bg-res.jpg) no-repeat;
+  background:linear-gradient(rgba(102, 140, 158, 0.62), #37e07347), url(assets/images/bg-res.jpg) no-repeat;
+  background-size: cover;
   display: inline;
   float: left;
   padding: 100px 0;
@@ -1514,6 +1517,7 @@ RESERVATION SECTION
     background-size: cover;
     display: inline-block;
     width: 100%;
+    background-position: top right;
 
 }
 
@@ -1591,6 +1595,7 @@ RESERVATION SECTION
 }
 .mu-single-chef-img {
   margin: 0 20px;
+  text-align: center;
 }
 .mu-single-chef-img img{
   height: auto;
@@ -1630,7 +1635,9 @@ RESERVATION SECTION
   width: 100%;
   background-size: cover;
   background-attachment: fixed;
-  background-image: url(assets/images/bitex.jpg);
+ background-image: -webkit-linear-gradient(rgba(33, 111, 167, 0.42), #0c2f5047),url(assets/images/bitex.jpg);
+ background-image: -o-linear-gradient(rgba(33, 111, 167, 0.42), #0c2f5047),url(assets/images/bitex.jpg);
+ background-image: linear-gradient(rgba(33, 111, 167, 0.42), #0c2f5047),url(assets/images/bitex.jpg);
   background-position: left top;
   background-repeat: no-repeat;
   padding: 70px 0 63px 0;
@@ -1744,7 +1751,7 @@ RESERVATION SECTION
   color: #cc8e35;
   font-weight: bold;
   transition: all .5s;
-  margin-top: 1em;
+  margin-top: 1.5em;
 }
 .login:focus{
   outline: none!important;
@@ -1802,7 +1809,7 @@ RESERVATION SECTION
     padding-right: 10px;
   }
   #mu-chef {
-    padding: 70px 0 50px;
+    padding: 70px 0 110px;
   }
   #mu-chef .mu-single-chef-info p {
     font-size: 10.5px;
@@ -1849,7 +1856,9 @@ RESERVATION SECTION
 
 @media (max-width: 991px) {
 
-
+  .button-dang-ky {
+    top: 20px;
+  }
   .mu-main-navbar .mu-main-nav li a {
     padding-left: 5px;
     padding-right: 5px;

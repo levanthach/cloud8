@@ -62,7 +62,7 @@ jQuery(function($){
   /* ----------------------------------------------------------- */    
 
     jQuery('.mu-chef-nav').slick({
-      dots: false,
+      dots: true,
       arrows: false,
       infinite: true,
       speed: 300,
@@ -162,7 +162,7 @@ jQuery(function($){
       // Bind to scroll
       jQuery(window).scroll(function(){
          // Get container scroll position
-         var fromTop = $(this).scrollTop()+topMenuHeight;
+         var fromTop = $(this).scrollTop()+topMenuHeight + 20;
          
          // Get id of current scroll item
          var cur = scrollItems.map(function(){
