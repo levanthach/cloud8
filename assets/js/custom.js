@@ -125,14 +125,10 @@ jQuery(function($){
       $('#mu-map iframe').css("pointer-events", "none"); 
     });
     
-
-	
 	
   /* ----------------------------------------------------------- */
   /*  7. MENU SMOOTH SCROLLING
   /* ----------------------------------------------------------- */ 
-
-  
     //MENU SCROLLING WITH ACTIVE ITEM SELECTED
 
       // Cache selectors
@@ -154,12 +150,12 @@ jQuery(function($){
             offsetTop = href === "#" ? 0 : $(href).offset().top-topMenuHeight+32;
         jQuery('html, body').stop().animate({ 
             scrollTop: offsetTop
-        }, 1500);           
+        }, 800);           
          jQuery('.navbar-collapse').removeClass('in');  
         e.preventDefault();
       });
 
-      // Bind to scroll
+      // // Bind to scroll
       jQuery(window).scroll(function(){
          // Get container scroll position
          var fromTop = $(this).scrollTop()+topMenuHeight + 20;
@@ -185,14 +181,6 @@ jQuery(function($){
   /* ----------------------------------------------------------- */
   /*  8. HOVER DROPDOWN MENU
   /* ----------------------------------------------------------- */ 
-  
-  // for hover dropdown menu
-    jQuery('ul.nav li.dropdown').hover(function() {
-      jQuery(this).find('.dropdown-menu').stop(true, true).fadeIn(200);
-    }, function() {
-      jQuery(this).find('.dropdown-menu').stop(true, true).fadeOut(200);
-    });
-
     
   /* ----------------------------------------------------------- */
   /*  9. SCROLL TOP BUTTON

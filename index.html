@@ -592,26 +592,26 @@
 
 						<div class="col-md-6">
 							<div class="mu-reservation-left">
-								<form class="mu-reservation-form">
+								<form class="mu-reservation-form" method="POST" action="mail.php" accept-charset="utf-8">
 									<div class="row">
 										<div class="col-md-12">
 											<div class="form-group">                       
-												<input type="text" class="form-control" placeholder="Họ và tên" required>
+												<input type="text" class="form-control" name="full-name" placeholder="Họ và tên" required>
 											</div>
 										</div>
 										<div class="col-md-12">
 											<div class="form-group">                        
-												<input type="email" class="form-control" placeholder="Địa chỉ Email" required>
+												<input type="email" class="form-control" name="email" placeholder="Địa chỉ Email" required>
 											</div>
 										</div>
 										<div class="col-md-12">
 											<div class="form-group">                        
-												<input type="text" class="form-control" placeholder="Số Điện Thoại" required>
+												<input type="text" class="form-control" name="phone" placeholder="Số Điện Thoại" required>
 											</div>
 										</div>
-										<div class="col-md-12">
+									<!-- 	<div class="col-md-12">
 											<div class="form-group">
-												<select class="form-control" required>
+												<select class="form-control" name="people_res" required>
 													<option value="0">Số Người Đăng Ký?</option>
 													<option value="1 Person">1 Người</option>
 													<option value="2 People">2 Người</option>
@@ -620,21 +620,20 @@
 													<option value="5 People">5 Người</option>
 													<option value="6 People">6 Người</option>
 													<option value="Nhiều người">Trên 6 Người</option>
-
 												</select>                      
 											</div>
-										</div>
+										</div> -->
 								
 
 										<div class="col-md-12">
 											<div class="form-group">
-												<textarea class="form-control" cols="30" rows="5" placeholder="Mục tiêu tham gia Cloud8" style="resize: none;" required></textarea>
+												<textarea class="form-control" cols="30" rows="5" name="target" placeholder="Mục tiêu tham gia Cloud8" style="resize: none;" required></textarea>
 											</div>
 										</div>
 										<div class="col-md-12">
 											<div class="form-group">
-												<select class="form-control" required>
-													<option value="Tham Gia">* Tham gia Cloud8 Night (Mức phí 1.000.000 VNĐ/ vé)</option>
+												<select class="form-control" name="join"  required>
+													<option value="">* Tham gia Cloud8 Night (Mức phí 1.000.000 VNĐ/ vé)</option>
 													<option value="Có">Có</option>
 													<option value="Không">Không</option>
 												</select>                      
@@ -648,7 +647,7 @@
 												<input type="radio" name="res" value="Không" style="margin-left: 20px"> Không
 											</div>
 										</div> -->
-										<button type="submit" class="mu-readmore-btn">Đăng Ký</button>
+										<button type="submit" class="mu-readmore-btn"name="send">Đăng Ký</button>
 									</div>
 								</form>    
 							</div>
@@ -1088,13 +1087,13 @@
 			<div class="modal-body">
 				<button data-dismiss="modal" class="close">&times;</button>
 				<h3>ĐĂNG KÝ NGAY</h3>
-				<form>								                       
-					<input type="text" class="form-control form-control-res" placeholder="Họ và tên" required>
-					<input type="email" class="form-control form-control-res" placeholder="Địa chỉ Email" required>         
-					<input type="text" class="form-control form-control-res" placeholder="Số Điện Thoại" required>
-					<textarea class="form-control form-control-res" cols="30" rows="5" placeholder="Mục tiêu tham gia Cloud8" style="resize: none;" required></textarea>
-					<select class="form-control form-control-res" required>
-						<option value="Tham Gia">* Tham gia Cloud8 Night (Mức phí 1.000.000 VNĐ/ vé)</option>
+				<form action="mail.php" method="POST" accept-charset="utf-8">								                       
+					<input type="text" class="form-control form-control-res" placeholder="Họ và tên" name="full-name" required>
+					<input type="email" name="email" class="form-control form-control-res" placeholder="Địa chỉ Email" required>         
+					<input type="text" name="phone" class="form-control form-control-res" placeholder="Số Điện Thoại" required>
+					<textarea class="form-control form-control-res" cols="30" rows="5" name="target" placeholder="Mục tiêu tham gia Cloud8" style="resize: none;" required></textarea>
+					<select class="form-control form-control-res" name="join" required>
+						<option value="">* Tham gia Cloud8 Night (Mức phí 1.000.000 VNĐ/ vé)</option>
 						<option value="Có">Có</option>
 						<option value="Không">Không</option>
 					</select>             
@@ -1104,7 +1103,7 @@
 					<input type="radio" name="res" value="Không" style="margin-left: 20px"> Không
 					<br>	 -->
 					<div class="text-center">
-						<input class="btn login text-center" align="center" type="submit" value="GỬI ĐĂNG KÝ" />
+						<input class="btn login text-center" align="center" type="submit" value="GỬI ĐĂNG KÝ" name="send" />
 					</div>						
 
 				</form>
@@ -1114,7 +1113,6 @@
 </div>
 
 <!-- end popup form -->
-
 
 <!-- Start Footer -->
 <footer id="mu-footer">
@@ -1157,7 +1155,6 @@
 <script type="text/javascript" src="assets/js/bootstrap-datepicker.js"></script> 
 <!-- Ajax contact form  -->
 <script type="text/javascript" src="assets/js/app.js"></script>
-
 <!-- Custom js -->
 <script src="assets/js/custom.js"></script> 
 
