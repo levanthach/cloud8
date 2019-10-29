@@ -3,9 +3,8 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">    
+	<meta name="viewport" content="width=device-width, initial-scale=1">  
 	<title>Cloud8 - Lần VIII</title>
-
 	<!-- Favicon -->
 	<link rel="shortcut icon" href="assets/images/logo-left.png" type="image/x-icon">
 
@@ -588,7 +587,7 @@
 					</div>
 
 					<div class="mu-reservation-content">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione quidem autem iusto, perspiciatis, amet, quaerat blanditiis ducimus eius recusandae nisi aut totam alias consectetur et.</p>
+						<p>Grand Palace HCM - 142/18 Cộng Hòa, Phường 4, Tân Bình, Hồ Chí Minh</p>
 
 						<div class="col-md-6">
 							<div class="mu-reservation-left">
@@ -609,28 +608,14 @@
 												<input type="text" class="form-control" name="phone" placeholder="Số Điện Thoại" required>
 											</div>
 										</div>
-									<!-- 	<div class="col-md-12">
-											<div class="form-group">
-												<select class="form-control" name="people_res" required>
-													<option value="0">Số Người Đăng Ký?</option>
-													<option value="1 Person">1 Người</option>
-													<option value="2 People">2 Người</option>
-													<option value="3 People">3 Người</option>
-													<option value="4 People">4 Người</option>
-													<option value="5 People">5 Người</option>
-													<option value="6 People">6 Người</option>
-													<option value="Nhiều người">Trên 6 Người</option>
-												</select>                      
-											</div>
-										</div> -->
-								
+									
 
 										<div class="col-md-12">
 											<div class="form-group">
 												<textarea class="form-control" cols="30" rows="5" name="target" placeholder="Mục tiêu tham gia Cloud8" style="resize: none;" required></textarea>
 											</div>
 										</div>
-										<div class="col-md-12">
+								<!-- 		<div class="col-md-12">
 											<div class="form-group">
 												<select class="form-control" name="join"  required>
 													<option value="">* Tham gia Cloud8 Night (Mức phí 1.000.000 VNĐ/ vé)</option>
@@ -638,15 +623,15 @@
 													<option value="Không">Không</option>
 												</select>                      
 											</div>
-										</div>	
-			<!-- 							<div class="col-md-12">
-											<div class="form-group" style="color: #fff">
-												<input type="text" class="form-control" placeholder="* Tham gia Cloud8 Night (Mức phí 1.000.000 VNĐ/ vé)" required disabled>
+										</div>	 -->
+										<div class="col-md-12">
+											<div class="form-group" style="color: #333;padding: 10px; background: #fff;" name="join">
+												<h5 style="color: red;font-weight: bold; margin-top: 0">* Tham gia Cloud8 Night (Mức phí 1.000.000 VNĐ/ vé)</h5>
 
 												<input type="radio" name="res" value="Có"> Có
 												<input type="radio" name="res" value="Không" style="margin-left: 20px"> Không
 											</div>
-										</div> -->
+										</div>
 										<button type="submit" class="mu-readmore-btn"name="send">Đăng Ký</button>
 									</div>
 								</form>    
@@ -1091,12 +1076,13 @@
 					<input type="text" class="form-control form-control-res" placeholder="Họ và tên" name="full-name" required>
 					<input type="email" name="email" class="form-control form-control-res" placeholder="Địa chỉ Email" required>         
 					<input type="text" name="phone" class="form-control form-control-res" placeholder="Số Điện Thoại" required>
-					<textarea class="form-control form-control-res" cols="30" rows="5" name="target" placeholder="Mục tiêu tham gia Cloud8" style="resize: none;" required></textarea>
-					<select class="form-control form-control-res" name="join" required>
-						<option value="">* Tham gia Cloud8 Night (Mức phí 1.000.000 VNĐ/ vé)</option>
-						<option value="Có">Có</option>
-						<option value="Không">Không</option>
-					</select>             
+					<textarea class="form-control form-control-res" cols="30" rows="5" name="target" placeholder="Mục tiêu tham gia Cloud8" style="resize: none; border-radius: 4px;" required></textarea>
+					<div class="form-group" style="color: #333;padding: 10px; background: #fff; border-radius: 4px" name="join">
+						<h5 style="color: red;font-weight: bold; margin-top: 0">* Tham gia Cloud8 Night (Mức phí 1.000.000 VNĐ/ vé)</h5>
+
+						<input type="radio" name="res" value="Có"> Có
+						<input type="radio" name="res" value="Không" style="margin-left: 20px"> Không
+					</div>      
 					<hr>       
 				<!-- 	<input type="text" class="form-control form-control-res" placeholder="* Tham gia Cloud8 Night (Mức phí 1.000.000 VNĐ/ vé)" required disabled>
 					<input type="radio" name="res" value="Có"> Có

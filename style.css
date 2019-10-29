@@ -313,7 +313,7 @@ img {
 }
 
 .mu-top-slider .mu-top-slider-single:after {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.15);
   bottom: 0;
   content: "";
   left: 0;
@@ -745,7 +745,6 @@ RESERVATION SECTION
 .mu-reservation-content {
   display: inline;
   float: left;
-  margin-top: 20px;
   padding: 0 100px;
   width: 100%;
 }
@@ -777,7 +776,7 @@ RESERVATION SECTION
 
 .mu-reservation-form input[type="text"],
 .mu-reservation-form input[type="email"] {
-  border-radius: 0;
+  border-radius: 0!important;
   color: #000;
   height: 40px;
 }

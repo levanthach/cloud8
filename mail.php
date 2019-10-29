@@ -7,7 +7,7 @@ if(isset($_POST['send']))
 	$email = $_POST['email'];
 	$phone = $_POST['phone'];
 	$target = $_POST['target'];
-	$join = $_POST['join'];
+	$join = $_POST['res'];
 	  //#2
 	$mail = new PHPMailer;
 	$mail->isSMTP();
@@ -27,15 +27,14 @@ if(isset($_POST['send']))
 					<b>Email:</b> $email <br>
 					<b>Số điện thoại:</b> $phone <br>
 					<b>Mục tiêu tham gia:</b> $target <br>
-					<b>Tham gia Cloud8 Night:</b> $join
-	";
+					<b>Tham gia Cloud8 Night:</b> $join";
 	  //#4
 	if (!$mail->send()) {
 		$error = "Lỗi: " . $mail->ErrorInfo;
 		echo '<p>'.$error.'</p>';
 	}
 	else {
-		echo "<script type='text/javascript' charset='utf-8'> alert('Đăng ký thành công');  window.location.replace('/cloud8'); </script>";
+		echo "<script type='text/javascript' charset='utf-8'> alert('Đăng ký thành công'); window.location.replace('/cloud8');</script>";  
 	}
 }
 else{
