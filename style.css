@@ -722,6 +722,7 @@ RESERVATION SECTION
 ====================*/
 
 #mu-reservation {
+  position: relative;
   background:-webkit-linear-gradient(rgba(102, 140, 158, 0.62), #37e07347), url(assets/images/bg-res.jpg) no-repeat;
   background:-o-linear-gradient(rgba(102, 140, 158, 0.62), #37e07347), url(assets/images/bg-res.jpg) no-repeat;
   background:linear-gradient(rgba(102, 140, 158, 0.62), #37e07347), url(assets/images/bg-res.jpg) no-repeat;
@@ -731,7 +732,11 @@ RESERVATION SECTION
   padding: 100px 0;
   width: 100%;
 }
-
+.particles-js-canvas-el {
+  position: absolute;
+  top:0;
+  left: 0;
+}
 .mu-reservation-area {
   display: inline;
   float: left;
