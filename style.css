@@ -734,8 +734,17 @@ RESERVATION SECTION
 }
 .particles-js-canvas-el {
   position: absolute;
+  display: block;
   top:0;
   left: 0;
+}
+#mu-reservation .container{
+  z-index:2;
+  position:relative;
+}
+
+#mu-reservation .particles-js-canvas-el{
+  z-index:1;
 }
 .mu-reservation-area {
   display: inline;
