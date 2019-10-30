@@ -739,12 +739,12 @@ RESERVATION SECTION
   left: 0;
 }
 #mu-reservation .container{
-  z-index:2;
+  z-index:10!important;
   position:relative;
 }
 
 #mu-reservation .particles-js-canvas-el{
-  z-index:1;
+  z-index:1!important;
 }
 .mu-reservation-area {
   display: inline;
