@@ -73,7 +73,7 @@
 						<li><a href="#intro">GIỚI THIỆU</a></li>                       
 						<li><a href="#mu-restaurant-menu">CHƯƠNG TRÌNH</a></li>                       
 						<li><a href="#mu-chef">ĐẤU GIÁ TỪ THIỆN</a></li>                       
-						<li><a href="#mu-bonus">ƯU ĐÃI TẠI CLOUD8</a></li>
+						<li><a href="http://cloud8.hostingday.vn/" target="_blank">LỊCH SỬ</a></li>
 						<li><a href="#mu-reservation">ĐĂNG KÝ</a></li> 
 					</ul>                            
 				</div><!--/.nav-collapse -->       
@@ -159,11 +159,11 @@
 									<h3>CLOUD8 DAY</h3>
 									<p>Chương trình Cloud8 Day có 2 hoạt động chính</p>
 									<ul>
-										<li>Giới thiệu, demo các sản phẩm, dịch vụ CNTT trong nước tại các gian hàng trong khu triển lãm như: Thiết bị phần cứng, Cloud Server, Voice IP</li>
-										<li>Hội thảo cập nhật xu hướng công nghệ, chia sẻ kinh nghiệm ứng dụng CNTT trong nước</li>
+										<li>Giới thiệu, demo các sản phẩm, dịch vụ CNTT trong nước tại các gian hàng trong khu triển lãm như: Thiết bị phần cứng, Cloud Server, Voice IP.</li>
+										<li>Hội thảo cập nhật xu hướng công nghệ, chia sẻ kinh nghiệm ứng dụng CNTT trong nước.</li>
 
 									</ul>
-									<p>Khi tham gia chương trình Cloud8 Day doanh nghiệp có cơ hội kết nối trực tiếp với các nhà cung cấp hạ tầng, dịch vụ CNTT trong nước qua các gian hàng trưng bày, demo sản phẩm tại khu vực triển lãm cũng như nhận được những ưu đãi đặc biệt chỉ có tại Cloud8 Day
+									<p>Khi tham gia chương trình Cloud8 Day doanh nghiệp có cơ hội kết nối trực tiếp với các nhà cung cấp hạ tầng, dịch vụ CNTT trong nước qua các gian hàng trưng bày, demo sản phẩm tại khu vực triển lãm cũng như nhận được những ưu đãi đặc biệt chỉ có tại Cloud8 Day.
 									</p>
 								</div>
 							</div> <!-- end content day -->
@@ -184,8 +184,9 @@
 								<div class="mu-about-us-left" style="margin-top: 0">
 
 									<h3>CLOUD8 NIGHT</h3>
-									<p>Tiệc chiêu đãi đặc biệt và giao lưu mở các cấp quản lý, điều hành đến từ các đơn vị tài trợ, đối tác và đồng hành cùng Cloud8 năm nay. Từng khoảnh khắc tại Cloud8 Night luôn được mong chờ nhất hàng năm tạo sự gắn kết giữa các doanh nghiệp hoạt động trong lĩnh vực CNTT và doanh nghiệp
-									</p>
+									<p>Tiệc chiêu đãi đặc biệt và giao lưu mở các cấp quản lý, điều hành đến từ các đơn vị tài trợ, đối tác và đồng hành cùng Cloud8 năm nay. Từng khoảnh khắc tại Cloud8 Night luôn được mong chờ nhất hàng năm tạo sự gắn kết giữa các doanh nghiệp hoạt động trong lĩnh vực CNTT và doanh nghiệp.
+									</p><br>
+									<p>Trải qua 7 lần tổ chức sự kiện Cloud8, VinaCIS phối hợp với Hội tin học Thành phố Hồ Chí Minh (HCA) cùng các đơn vị tài trợ đã ngày càng có những bước đi vững chắc, tự tin mang đến một ngày hội ngày càng chu đáo hơn.</p>
 								</div>
 							</div> <!-- end content day -->
 							<div class="col-md-6">
@@ -374,7 +375,7 @@
 						<h2>ĐẤU GIÁ TỪ THIỆN
 						</h2>
 					</div>
-					<div class="mu-chef-des">
+					<div class="mu-chef-des" style="color: black">
 						<p>
 							Đấu giá từ thiện là hoạt động quyền góp các vật phẩm do các doanh nghiệp quyền góp và đấu giá tại Cloud8 để gây quỹ làm hoạt động từ thiện hướng tới các hoạt động đã từng thực hiện như
 
@@ -641,13 +642,13 @@
 						<div class="col-md-5 col-md-offset-1">
 							<div class="mu-reservation-right">
 								<div class="mu-opening-hour">
-									<h2>Opening Hours</h2>
+									<h2>QUỸ KHUYẾN HỌC</h2>
 									<ul class="list-unstyled">
 										<li>
-											<p>Monday &amp; Tuesday</p>
-											<p>9:00 AM - 4:00 PM</p>
+											<p>Sẽ sớm được cập nhật</p>
+											<p>...</p>
 										</li>
-										<li>
+										<!-- <li>
 											<p>Wednesday &amp; Thursday</p>
 											<p>9:00 AM - Midnight</p>
 										</li>
@@ -658,7 +659,7 @@
 										<li>
 											<p>Sunday</p>
 											<p>9:00 AM - 11:00 PM</p>
-										</li>
+										</li> -->
 									</ul>
 								</div>
 							</div>
@@ -753,12 +754,12 @@
 						<!-- End popup partner -->
 						<div class="mu-single-chef">
 							<figure class="mu-single-chef-img">
-								<img src="assets/images/specker_phuongchi.jpg" alt="chef img">
+								<img src="assets/images/avatar.jpg" alt="chef img">
 							</figure>
 							<div class="mu-single-chef-info">
-								<h4>Ms Bùi Thị Phương Chi
+								<h4>Comming soon
 								</h4>
-								<p>Giám đốc kênh truyền hình VITV
+								<p>...
 								</p>
 								<a href="#" data-toggle="modal" data-target="#partnerModal3"><span>More >></span></a>
 							</div>
@@ -770,18 +771,11 @@
 								<div class="modal-content md-content-partner">
 									<div class="modal-header">
 										<button type="button" class="close" data-dismiss="modal">&times;</button>
-										<h4 class="modal-title">Ms Bùi Thị Phương Chi</h4>
+										<h4 class="modal-title">Comming soon</h4>
 									</div>
 									<div class="modal-body">
-										<img src="assets/images/specker_phuongchi.jpg" alt="chef img" class="img-circle">
-										<p>
-											- Giám Đốc Kênh truyền hình VITV <br>
-											- MC, Biên tập viên, điều phối viên <br>
-											- Tọa đàm “Doanh nhân với trách nhiệm xã hội” 2017 <br>
-											- Tọa đàm lãnh đạo “Tối ưu hóa kênh phân phối – Nâng cao sự tin tưởng và gắn kết khách hàng” <br>
-											- Diễn đàn ngân hàng bán lẻ 2016 <br>
-											- Phiên thảo luận “Dịch vụ nội dung số và sự hội tụ”- Internet Day 2016 <br>
-										2013 đến nay: Giám đốc kênh, phụ trách talkshow đối thoại hàng tuần với các diễn giả, khách mời VIP, nổi tiếng, CEO các công ty, tập đoàn lớn và các Bộ, ban ngành nhà nước</p>
+										<img src="assets/images/avatar.jpg" alt="chef img" class="img-circle">
+											<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
 									</div>
 									
 								</div>
@@ -791,12 +785,12 @@
 						<!-- End popup partner -->
 						<div class="mu-single-chef">
 							<figure class="mu-single-chef-img">
-								<img src="assets/images/speaker_nguyenngocnam.jpg" alt="chef img">
+								<img src="assets/images/avatar.jpg" alt="chef img">
 							</figure>
 							<div class="mu-single-chef-info">
-								<h4>Mr Nguyễn Ngọc Nam
+								<h4>Comming soon
 								</h4>
-								<p>Tổng giám đốc- Quỹ ESP Capital
+								<p>...
 								</p>
 								<a href="#" data-toggle="modal" data-target="#partnerModal4"><span>More >></span></a>
 							</div>
@@ -808,14 +802,11 @@
 								<div class="modal-content md-content-partner">
 									<div class="modal-header">
 										<button type="button" class="close" data-dismiss="modal">&times;</button>
-										<h4 class="modal-title">Mr Nguyễn Ngọc Nam</h4>
+										<h4 class="modal-title">Comming soon</h4>
 									</div>
 									<div class="modal-body">
-										<img src="assets/images/speaker_nguyenngocnam.jpg" alt="chef img" class="img-circle">
-										<p>- Ông Nam (Stanley) là một doanh nhân và nhà đầu tư mạo hiểm nhiều lĩnh vực kinh doanh khác nhau ở Việt Nam và Singapore.<br>
-											- Hiện tại, ông là Tổng giám đốc điều hành của quĩ ESP Capital, quỹ khởi nghiệp tập trung vào các tech startups, đồng thời là nhà sáng lập và CEO của Alpha Vision Ltd., chuyên đầu tư vào mảng bán lẻ và các dự án bất động sản.<br>
-											- Ông đã có nhiều năm kinh nghiệm xây dựng mối quan hệ với các nhà đầu tư, doanh nghiệp cũng như các cá nhân tài năng để phát triển cộng đồng startup Việt Nam và Singapore.
-										Tốt nghiệp bằng cử nhân và tiến sĩ ở đại học Nanyang Technological University</p>
+										<img src="assets/images/avatar.jpg" alt="chef img" class="img-circle">
+											<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
 									</div>
 
 								</div>
@@ -825,13 +816,12 @@
 						<!-- End popup partner -->
 							<div class="mu-single-chef">
 							<figure class="mu-single-chef-img">
-								<img src="assets/images/speacker_buicamvan.jpg" alt="chef img">
+								<img src="assets/images/avatar.jpg" alt="chef img">
 							</figure>
 							<div class="mu-single-chef-info">
-								<h4>Ms Bùi Cẩm Vân
+								<h4>Comming soon
 								</h4>
-								<p>Phó Giám đốc
-									Up Co-working Space
+								<p>...
 								</p>
 								<a href="#" data-toggle="modal" data-target="#partnerModal7"><span>More >></span></a>
 							</div>
@@ -843,10 +833,10 @@
 								<div class="modal-content md-content-partner">
 									<div class="modal-header">
 										<button type="button" class="close" data-dismiss="modal">&times;</button>
-										<h4 class="modal-title">Ms Bùi Cẩm Vân</h4>
+										<h4 class="modal-title">Comming soon</h4>
 									</div>
 									<div class="modal-body">
-										<img src="assets/images/speacker_buicamvan.jpg" alt="chef img" class="img-circle">
+										<img src="assets/images/avatar.jpg" alt="chef img" class="img-circle">
 										<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
 									</div>
 								</div>
@@ -854,177 +844,7 @@
 						</div>
 						<!-- End popup partner -->
 					
-						<div class="mu-single-chef">
-							<figure class="mu-single-chef-img">
-								<img src="assets/images/nguyenmanhdung.jpg" alt="chef img">
-							</figure>
-							<div class="mu-single-chef-info">
-								<h4>Mr Nguyễn Mạnh Dũng</h4>
-								<p>Trưởng đại diện kiêm Giám đốc đầu tư
-									CyberAgent Ventures
-								</p>
-								<a href="#" data-toggle="modal" data-target="#partnerModal6"><span>More >></span></a>
-							</div>
-						</div>
-						<!-- Popup partner -->
-						<!-- Modal -->
-						<div class="modal modal-partner fade" id="partnerModal6" role="dialog">
-							<div class="modal-dialog modal-lg">
-								<div class="modal-content md-content-partner">
-									<div class="modal-header">
-										<button type="button" class="close" data-dismiss="modal">&times;</button>
-										<h4 class="modal-title">Mr Nguyễn Mạnh Dũng</h4>
-									</div>
-									<div class="modal-body">
-										<img src="assets/images/nguyenmanhdung.jpg" alt="chef img" class="img-circle">
-										<p>- 10 năm kinh nghiệm trong lĩnh vực đầu tư mạo hiểm và hỗ trợ, tư vấn, gọi vốn giúp các doanh nghiệp khởi nghiệp Hiện tại đang là thành viên Hội đồng quản trị và Mentor cho nhiều công ty khởi nghiệp.
-											<br>
-											- Đầu tư vào CleverAds (Agency SEM lớn nhất của Google tại Việt Nam), Tiki (sàn Thương mại điện tử hàng đầu Việt Nam),Topica Education Group (tổ hợp giáo dục hàng đầu tại Đông Nam Á), NCT (website chia sẻ nhạc hàng đầu Việt Nam: www.nhaccuatui.com), Vatgia (sàn Thương mại điện tử hàng đầu Việt Nam).
-											<br>
-											- Một trong những nhà đầu tư đầu tiên vào Foody (trang tìm kiếm và đánh giá về đồ ăn lớn nhất Việt Nam: foody.vn, vận hành tablenow.vn, deliverynow.vn), Đại Việt (điều hành sàn bất động sản lớn nhất Đông Nam Á: www.batdongsan.com.vn), Vicare (Cổng y tế số 1 Việt Nam), Vexere (website tổng hợp thông tin nhà xe và tuyến đường lớn nhất Việt Nam), Websosanh (trang tìm kiếm và so sánh sản phẩm số 1 Việt Nam), Kyna (trang giáo dục trực tuyến hàng đầu Việt Nam), Jupviec (công ty cung cấp dịch vụ 'Giúp Việc Gia Đình' hàng đầu Việt Nam).
-											<br>
-											- Tổng cộng hơn 20 thương vụ đầu tư vào giai đoạn đầu của các công ty khởi nghiệp nổi tiếng ở Việt Nam.
-											<br>
-											- Phát triển đầu tư vào thị trường Thái Lan kể từ năm 2013, khởi đầu với Priceza Co., Ltd (trang so sánh lớn nhất Thái Lan), đến nay tổng cộng 8 thương vụ đầu tư.
-											<br>
-										- Tốt nghiệp Đại học Ngoại Thương (Hà Nội, Việt Nam) và đại học Hosei (Tokyo, Nhật Bản).</p>
-									</div>
-
-								</div>
-							</div>
-						</div>
-						<!-- End popup partner -->
-							<div class="mu-single-chef">
-							<figure class="mu-single-chef-img">
-								<img src="assets/images/duc_dung.jpg" alt="chef img">
-							</figure>
-							<div class="mu-single-chef-info">
-								<h4>Mr Nguyễn Đức Dũng
-								</h4>
-								<p>Trưởng phòng Kinh doanh
-									CMC Telecom
-								</p>
-								<a href="#" data-toggle="modal" data-target="#partnerModal5"><span>More >></span></a>
-							</div>
-						</div>
-						<!-- Popup partner -->
-						<!-- Modal -->
-						<div class="modal modal-partner fade" id="partnerModal5" role="dialog">
-							<div class="modal-dialog modal-lg">
-								<div class="modal-content md-content-partner">
-									<div class="modal-header">
-										<button type="button" class="close" data-dismiss="modal">&times;</button>
-										<h4 class="modal-title">Mr Nguyễn Đức Dũng</h4>
-									</div>
-									<div class="modal-body">
-										<img src="assets/images/duc_dung.jpg" alt="chef img" class="img-circle">
-										<p>Anh Nguyễn Đức Dũng đã có 9 năm kinh nghiệm trong lĩnh vực CNTT (Server, Hosting, Domain, SSL) bao gồm cả Kinh doanh và Kỹ thuật. Anh có nhiều kinh nghiệm làm việc với doanh nghiệp – khách hàng Quốc tế. Anh tham gia nghiên cứu và phát triển cùng đội ngũ phát triển Cloud Server của CMC từ 2014</p>
-									</div>
-
-								</div>
-							</div>
-						</div>
-						<!-- End popup partner -->
-						<div class="mu-single-chef">
-							<figure class="mu-single-chef-img">
-								<img src="assets/images/specker_nguyenxuanbach.jpg" alt="chef img">
-							</figure>
-							<div class="mu-single-chef-info">
-								<h4>Mr Nguyễn Xuân Bách
-								</h4>
-								<p>Trưởng dự án nghiên cứu AI
-									Công ty Cổ phần OWS Việt Nam
-								</p>
-								<a href="#" data-toggle="modal" data-target="#partnerModal8"><span>More >></span></a>
-							</div>
-						</div>
-						<!-- Popup partner -->
-						<!-- Modal -->
-						<div class="modal modal-partner fade" id="partnerModal8" role="dialog">
-							<div class="modal-dialog modal-lg">
-								<div class="modal-content md-content-partner">
-									<div class="modal-header">
-										<button type="button" class="close" data-dismiss="modal">&times;</button>
-										<h4 class="modal-title">Mr Nguyễn Xuân Bách</h4>
-									</div>
-									<div class="modal-body">
-										<img src="assets/images/specker_nguyenxuanbach.jpg" alt="chef img" class="img-circle">
-										<p>Trung Tâm Nghiên Cứu OWS Lab - Công ty cổ phần OWS Việt Nam</p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<!-- End popup partner -->
-						<div class="mu-single-chef">
-							<figure class="mu-single-chef-img">
-								<img src="assets/images/specker_mc.jpg" alt="chef img">
-							</figure>
-							<div class="mu-single-chef-info">
-								<h4>Ms Trần Thị Hằng
-								</h4>
-								<p>Trưởng dự án Startup VITV 
-									khu vực miền Bắc
-								</p>
-								<a href="#" data-toggle="modal" data-target="#partnerModal9"><span>More >></span></a>
-							</div>
-						</div>
-						<!-- Popup partner -->
-						<!-- Modal -->
-						<div class="modal modal-partner fade" id="partnerModal9" role="dialog">
-							<div class="modal-dialog modal-lg">
-								<div class="modal-content md-content-partner">
-									<div class="modal-header">
-										<button type="button" class="close" data-dismiss="modal">&times;</button>
-										<h4 class="modal-title">Ms Trần Thị Hằng</h4>
-									</div>
-									<div class="modal-body">
-										<img src="assets/images/specker_mc.jpg" alt="chef img" class="img-circle">
-										<p>- 2011: Hoàn thành nghiên cứu khoa học về đồ họa trên thiết bị di động <br>
-											- 2012 – 2014: Tham gia dự án nghiên cứu thị trường cho Startup giáo dục <br>
-											- 2011 - 2017: Điều phối, dẫn chương trình liên quan đến giáo dục, từ thiện, khởi nghiệp (Tọa đàm về Montessori, Nội dung số) <br>
-										- 2016 – 2018: Tham gia nghiên cứu về đồ học trên truyền hình</p>
-									</div>
-
-								</div>
-							</div>
-						</div>
-
-						<!-- End popup partner -->
-						<div class="mu-single-chef">
-							<figure class="mu-single-chef-img">
-								<img src="assets/images/speacker_nguyenquanghuy.jpg" alt="chef img">
-							</figure>
-							<div class="mu-single-chef-info">
-								<h4>Mr Nguyễn Quang Huy
-								</h4>
-								<p>Phó Giám đốc 
-									Trung tâm CNTT Topica
-								</p>
-								<a href="#" data-toggle="modal" data-target="#partnerModal10"><span>More >></span></a>
-							</div>
-						</div>
-						<!-- Popup partner -->
-						<!-- Modal -->
-						<div class="modal modal-partner fade" id="partnerModal10" role="dialog">
-							<div class="modal-dialog modal-lg">
-								<div class="modal-content md-content-partner">
-									<div class="modal-header">
-										<button type="button" class="close" data-dismiss="modal">&times;</button>
-										<h4 class="modal-title">Mr Nguyễn Quang Huy</h4>
-									</div>
-									<div class="modal-body">
-										<img src="assets/images/speacker_nguyenquanghuy.jpg" alt="chef img" class="img-circle">
-										<p>- 10 năm làm trong lĩnh vực Thanh toán điện tử và Ngân hàng <br>
-											- Giải Khuyến khích Nhân tài đất việt 2014 cho sản phẩm đạt doanh thu cao - Hệ thống PayPOST cho Bưu điện VN <br>
-											- Nhiều năm kinh nghiệm trong lĩnh vực tư vấn phát triển sản phẩm và dịch vụ tài chính, tiêu dùng <br>
-										- Đang giữ vai trò Phó giám đốc Trung tâm CNTT Topica </p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<!-- End popup partner -->
-					</div>   <!-- end mu-chef-content -->
+						</div> <!-- end mu-popup-content -->
 			</div>
 		</div>
 	</div>

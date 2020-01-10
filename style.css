@@ -453,6 +453,7 @@ img {
   display: inline;
   float: left;
   margin-top: 20px;
+  text-align: justify;
   padding-top: 30px;
   padding-left: 15px;
   width: 100%;
@@ -476,6 +477,7 @@ img {
 
 .mu-about-us-left {
   display: inline;
+  text-align: justify;
   float: left;
   margin-top: 20px;
   padding-top: 30px;
@@ -908,8 +910,8 @@ RESERVATION SECTION
 }
 
 .mu-opening-hour h2 {
-  font-family: "Tangerine", cursive;
-  font-size: 50px;
+ /* font-family: "Tangerine", cursive;*/
+  font-size: 32px;
   margin: 10px 15px 20px;
   padding-bottom: 15px;
   text-align: center;
@@ -1686,6 +1688,7 @@ RESERVATION SECTION
 }
 .mu-about-us-night {
   background-color: #f8f8f8;
+
 }
 .mu-about-us-right h3, .mu-about-us-left h3 {
   font-size: 30px;
