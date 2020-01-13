@@ -68,14 +68,34 @@
 
 
 				</div>
-				<div id="navbar" class="navbar-collapse collapse">
-					<ul id="top-menu" class="nav navbar-nav navbar-right mu-main-nav">
-						<li><a href="#">DAY</a></li>                       
-						<li><a href="#">NIGHT</a></li>                       
-						<li><a href="#">WORKSHOP</a></li>                       
-						<!-- <li><a href="http://cloud8.hostingday.vn/" target="_blank">LỊCH SỬ</a></li>
-						<li><a href="#mu-reservation">ĐĂNG KÝ</a></li>  -->
-					</ul>                            
+				<div class="topnav" id="myTopnav">
+				<!-- 	<ul id="top-menu" class="nav navbar-nav navbar-right mu-main-nav">
+						                   
+						
+					</ul>           -->              
+					<div class="dropdown">
+					 <button class="dropbtn">WORKSHOP</button>
+					</div>
+					<div class="dropdown">
+					  <button class="dropbtn">NIGHT <i class="fa fa-caret-down"></i></button>
+					  <div class="dropdown-content">
+						  <a href="http://cloud8.hostingday.vn/lan_7/" target="_blank"><i class="fa fa-caret-right"></i> Cloud8 lần 7</a>
+						  <a href="http://cloud8.hostingday.vn/lan_6/" target="_blank"><i class="fa fa-caret-right"></i> Cloud8 lần 6</a>
+						  <a href="#"><i class="fa fa-caret-right"></i> Cloud8 lần 5</a>
+						  <a href="#"><i class="fa fa-caret-right"></i> Cloud8 lần 4</a>
+						  <a href="#"><i class="fa fa-caret-right"></i> Cloud8 lần 3</a>
+						  <a href="#"><i class="fa fa-caret-right"></i> Cloud8 lần 2</a>
+						  <a href="#"><i class="fa fa-caret-right"></i> Cloud8 lần 1</a>
+					  </div>
+					</div>    
+					<div class="dropdown">
+					  <button class="dropbtn">DAY <i class="fa fa-caret-down"></i></button>
+					  <div class="dropdown-content">
+						  <a href="http://cloud8.hostingday.vn/lan_7/" target="_blank"><i class="fa fa-caret-right"></i> Cloud8 lần 7</a>
+						  <a href="http://cloud8.hostingday.vn/lan_6/" target="_blank"><i class="fa fa-caret-right"></i> Cloud8 lần 6</a>
+						  <a href="#"><i class="fa fa-caret-right"></i> Cloud8 lần 5</a>
+					  </div>
+					</div>
 				</div><!--/.nav-collapse -->       
 			</div>          
 		</nav> 
@@ -876,6 +896,24 @@
 		</div>
 	</div>
 </section>
+<!-- Start Chef Section -->
+<section id="mu-partner">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="mu-partner">
+					<div class="mu-title">
+						<h2>NHÀ TÀI TRỢ</h2>
+					</div>
+
+					<div class="mu-partner-content">
+						<img src="assets/images/tai_tro.png" alt="Nhà tài trợ" class="img-responsive" style="margin:auto">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 <!-- Start Map section -->
 <section id="mu-map">
 	<!-- nhúng freame google-map -->
@@ -926,9 +964,9 @@
 				<div class="mu-footer-area">
 					<div class="mu-footer-social">
 						<a href="https://www.facebook.com/cloud8.vinacis/" target="_blank"><span class="fab fa-facebook"></span></a>
-						<a href="#" target="_blank"><span class="fab fa-twitter"></span></a>
+						<!-- <a href="#" target="_blank"><span class="fab fa-twitter"></span></a>
 						<a href="#" target="_blank"><span class="fab fa-google-plus"></span></a>
-						<a href="#" target="_blank"><span class="fab fa-linkedin"></span></a>
+						<a href="#" target="_blank"><span class="fab fa-linkedin"></span></a> -->
 						<a href="https://www.youtube.com/channel/UCZcu1Dj8TL-ezjOAUyNMEww" target="_blank"><span class="fab fa-youtube"></span></a>
 					</div>
 					<div class="mu-footer-copyright">
