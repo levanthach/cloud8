@@ -60,7 +60,7 @@
 					<!-- LOGO -->       
 					<!--  Text based logo  -->
 					<a class="navbar-brand" href="index.html">
-						<img src="assets/images/main-logo.png" alt="">
+						<img src="assets/images/cloud8_logo.png" alt="LOGO">
 					</a> 
 
 					<!--  Image based logo  -->
@@ -70,15 +70,16 @@
 				</div>
 				<div id="navbar" class="navbar-collapse collapse">
 					<ul id="top-menu" class="nav navbar-nav navbar-right mu-main-nav">
-						<li><a href="#intro">GIỚI THIỆU</a></li>                       
-						<li><a href="#mu-restaurant-menu">CHƯƠNG TRÌNH</a></li>                       
-						<li><a href="#mu-chef">ĐẤU GIÁ TỪ THIỆN</a></li>                       
-						<li><a href="http://cloud8.hostingday.vn/" target="_blank">LỊCH SỬ</a></li>
-						<li><a href="#mu-reservation">ĐĂNG KÝ</a></li> 
+						<li><a href="#">DAY</a></li>                       
+						<li><a href="#">NIGHT</a></li>                       
+						<li><a href="#">WORKSHOP</a></li>                       
+						<!-- <li><a href="http://cloud8.hostingday.vn/" target="_blank">LỊCH SỬ</a></li>
+						<li><a href="#mu-reservation">ĐĂNG KÝ</a></li>  -->
 					</ul>                            
 				</div><!--/.nav-collapse -->       
 			</div>          
 		</nav> 
+
 	</header>
 	<!-- End header section -->
 
@@ -176,7 +177,7 @@
 
 	<section id="mu-about-us" class="mu-about-us-night">
 		<div class="container">
-			<div class="row">
+			<div class="row night">
 				<div class="col-md-12">
 					<div class="mu-about-us-area">
 						<div class="row">
@@ -264,8 +265,8 @@
 
 						<div class="mu-title mu-title-timeline">
 
-							<h2>CHƯƠNG TRÌNH DỰ KIẾN</h2>
-							<p>(Chương trình có thể được thay đổi và cập nhật)</p>
+							<h2>NỘI DUNG CHƯƠNG TRÌNH</h2>
+							<p>(Chương trình có thể sẽ thay đổi)</p>
 						</div>
 
 						<div class="mu-restaurant-menu-content">
@@ -372,17 +373,17 @@
 			<div class="col-md-12">
 				<div class="mu-chef-area">
 					<div class="mu-title">
-						<h2>ĐẤU GIÁ TỪ THIỆN
+						<h2>ĐẤU GIÁ GÂY QUỸ KHUYẾN HỌC CLOUD8
 						</h2>
 					</div>
 					<div class="mu-chef-des" style="color: black">
 						<p>
-							Đấu giá từ thiện là hoạt động quyền góp các vật phẩm do các doanh nghiệp quyền góp và đấu giá tại Cloud8 để gây quỹ làm hoạt động từ thiện hướng tới các hoạt động đã từng thực hiện như
+							Quỹ khuyến học Cloud8 bắt đầu từ năm 2016 với mục đích gây quỹ đấu giá các vật phẩm quyên góp từ các DN sau đó đấu giá tại Cloud8. Quỹ khuyến học Cloud8 đã thực hiện
 
 						</p>
 						<ol style="list-style-type: square;">
-							<li>Tặng 10.0000 quyển vở học sinh cho các em ở Trường Sa năm 2016</li>
-							<li>Xây lớp học cho các em học sinh tại bản Mo, Lào Ca</li>
+							<li>Tặng 12.000 quyển vở cho hơn 1.000 học sinh huyện đảo Lý Sơn</li>
+							<li>Xây lớp học cho các em học sinh bản Mo, Lào Cai</li>
 						</ol>
 						<p>Khi tham dự chương trình Cloud8 Day hoặc Night bạn sẽ có cơ hội đấu giá những vật phẩm có giá trị hữu ích để gây quỹ từ thiện cho chương trình Cloud8 lần 8 năm nay</p>
 					</div>
@@ -392,11 +393,11 @@
 							<li>
 								<div class="mu-single-chefs">
 									<figure class="mu-single-chefs-img">
-										<img src="assets/images/Sp-tuthien1.png" alt="chef img">
+										<img src="assets/images/coming.png" alt="chef img">
 									</figure>
 									<div class="mu-single-chef-info">
-										<h4>OPPO F5</h4>
-										<span>Trị Giá: 120USD</span>
+										<h4>SỚM CẬP NHẬT</h4>
+										<!-- <span>Trị Giá: 120USD</span> -->
 									</div>
 
 								</div>
@@ -405,11 +406,10 @@
 							<li>
 								<div class="mu-single-chefs">
 									<figure class="mu-single-chefs-img">
-										<img src="assets/images/Sp-tuthien2.png" alt="chef img">
+										<img src="assets/images/coming.png" alt="chef img">
 									</figure>
 									<div class="mu-single-chef-info">
-										<h4>IPHONE XR</h4>
-										<span>Trị Giá: 200USD</span>
+										<h4>SỚM CẬP NHẬT</h4>
 									</div>
 
 								</div>
@@ -418,11 +418,10 @@
 							<li>
 								<div class="mu-single-chefs">
 									<figure class="mu-single-chefs-img">
-										<img src="assets/images/Sp-tuthien3.png" alt="chef img">
+										<img src="assets/images/coming.png" alt="chef img">
 									</figure>
 									<div class="mu-single-chef-info">
-										<h4>Vivo V7+</h4>
-										<span>Trị Giá: 135USD</span>
+										<h4>SỚM CẬP NHẬT</h4>
 									</div>
 
 								</div>
@@ -431,11 +430,10 @@
 							<li>
 								<div class="mu-single-chefs">
 									<figure class="mu-single-chefs-img">
-										<img src="assets/images/Sp-tuthien4.png" alt="chef img">
+										<img src="assets/images/coming.png" alt="chef img">
 									</figure>
 									<div class="mu-single-chef-info">
-										<h4>Readme</h4>
-										<span>Trị Giá: 220USD</span>
+										<h4>SỚM CẬP NHẬT</h4>
 									</div>
 
 								</div>
@@ -443,11 +441,10 @@
 							<li>
 								<div class="mu-single-chefs">
 									<figure class="mu-single-chefs-img">
-										<img src="assets/images/Sp-tuthien5.png" alt="chef img">
+										<img src="assets/images/coming.png" alt="chef img">
 									</figure>
 									<div class="mu-single-chef-info">
-										<h4>Oppo F11</h4>
-										<span>Trị Giá: 100USD</span>
+										<h4>SỚM CẬP NHẬT</h4>
 									</div>
 
 								</div>
@@ -754,7 +751,7 @@
 						<!-- End popup partner -->
 						<div class="mu-single-chef">
 							<figure class="mu-single-chef-img">
-								<img src="assets/images/avatar.jpg" alt="chef img">
+								<img src="assets/images/anh-tr.png" alt="chef img">
 							</figure>
 							<div class="mu-single-chef-info">
 								<h4>Comming soon
@@ -774,7 +771,7 @@
 										<h4 class="modal-title">Comming soon</h4>
 									</div>
 									<div class="modal-body">
-										<img src="assets/images/avatar.jpg" alt="chef img" class="img-circle">
+										<img src="assets/images/anh-tr.png" alt="chef img" class="img-circle">
 											<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
 									</div>
 									
@@ -785,7 +782,7 @@
 						<!-- End popup partner -->
 						<div class="mu-single-chef">
 							<figure class="mu-single-chef-img">
-								<img src="assets/images/avatar.jpg" alt="chef img">
+								<img src="assets/images/anh-tr.png" alt="chef img">
 							</figure>
 							<div class="mu-single-chef-info">
 								<h4>Comming soon
@@ -805,7 +802,7 @@
 										<h4 class="modal-title">Comming soon</h4>
 									</div>
 									<div class="modal-body">
-										<img src="assets/images/avatar.jpg" alt="chef img" class="img-circle">
+										<img src="assets/images/anh-tr.png" alt="chef img" class="img-circle">
 											<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
 									</div>
 
@@ -816,7 +813,7 @@
 						<!-- End popup partner -->
 							<div class="mu-single-chef">
 							<figure class="mu-single-chef-img">
-								<img src="assets/images/avatar.jpg" alt="chef img">
+								<img src="assets/images/anh-tr.png" alt="chef img">
 							</figure>
 							<div class="mu-single-chef-info">
 								<h4>Comming soon
@@ -836,7 +833,7 @@
 										<h4 class="modal-title">Comming soon</h4>
 									</div>
 									<div class="modal-body">
-										<img src="assets/images/avatar.jpg" alt="chef img" class="img-circle">
+										<img src="assets/images/anh-tr.png" alt="chef img" class="img-circle">
 										<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
 									</div>
 								</div>
@@ -872,7 +869,8 @@
 			</div><!--  end col-8 -->
 			<div class="col-xs-12 col-md-4 text-center">
 				<div class="button-dang-ky">
-					<a href="" data-target="#register" data-toggle="modal">ĐĂNG KÝ NGAY</a>
+					<a target="_blank" href="https://docs.google.com/forms/d/1hpkk62M4je4iWFJrwANpIekvBogvkutpTRhwtpPOrE8/viewform?edit_requested=true" >ĐĂNG KÝ NGAY</a>
+					<!-- <a href="" data-target="#register" data-toggle="modal" -->
 				</div>
 			</div>
 		</div>
@@ -934,9 +932,9 @@
 						<a href="https://www.youtube.com/channel/UCZcu1Dj8TL-ezjOAUyNMEww" target="_blank"><span class="fab fa-youtube"></span></a>
 					</div>
 					<div class="mu-footer-copyright">
-						<p>Công ty cổ phần VinaCIS - Copyright© 2016 VinaCIS <br>
+						<p>VinaCIS Corporation<br>
 							Địa chỉ: 268 Lý Thường Kiệt, Phường 14, Quận 10, TP.HCM – Việt Nam <br>
-							Hotline: 0124.956.1111 - Email: cloud8@vinacis.com
+							Hotline: 0985 600 766 - Email: cloud8@vinacis.com
 						</p>
 						<!-- <p>&copy; Copyright <a rel="nofollow" href="http://markups.io">markups.io</a>. All right reserved.</p> -->
 					</div>         
